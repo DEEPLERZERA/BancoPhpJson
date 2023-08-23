@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulário Banco</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div class = "animated-gradient">
+        <div class = "form">
+        <form action="php/processa_formulario.php" method="post">
+            <h1 class = "titulo">Conta do Banco</h1>
+
+            <label class = "nomeF" for="nome">nome:</label>
+            <input class = "nomeT" type="text" name="nome" id="nome" required placeholder="Digite seu nome"><br><br>
+    
+            <label class = "nContaF" for="nConta">numero da conta:</label>
+            <input class = "nContaT" type="number" name="nConta" id="nConta" required placeholder="Ex: 1155"><br><br>
+    
+            <label class = "saldoF" for="saldo">saldo:</label>
+            <input class = "saldoT" type="number" name="saldo" id="saldo" required placeholder="Ex: R$1500"><br><br>
+    
+            <label class = "cpfF" for="cpf">cpf:</label>
+            <input class = "cpfT" type="number" name="cpf" id="cpf" required placeholder="Ex: 25118593523"><br><br>
+    
+            <label class = "emailF" for="email">email:</label>
+            <input class = "emailT" type="text" name="email" id="email" required placeholder="Digite seu e-mail"><br><br>
+    
+            <input type="submit" value="Enviar">
+        </form>
+        </div>
+    </div>
+</body>
+</html>
